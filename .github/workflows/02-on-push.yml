@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Show trigger information
+      - name: Show what triggered this run
         run: |
           echo "Event name : $GITHUB_EVENT_NAME"
           echo "Branch ref : $GITHUB_REF"
