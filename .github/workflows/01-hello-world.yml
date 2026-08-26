@@ -1,0 +1,16 @@
+name: 01 - hello world
+
+on: workflow_dispatch
+
+jobs:
+  hello_jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print a greeting
+        run: echo "Hello, GitHub Actions! 👋"
+
+      - name: Print multiple lines
+        run: |
+          echo "This step runs several shell commands."
+          echo "Today run OS is Ubuntu."
+          echo "The repository is github actions demo"
