@@ -33,6 +33,7 @@ const buildInfo = {
   nodeVersion: process.version,
   runnerOs: process.env.RUNNER_OS ?? 'local',
 };
+console.log("testing")
 
 await writeFile(join(OUT, 'build-info.json'), JSON.stringify(buildInfo, null, 2));
 console.log('\nBuild complete:');
