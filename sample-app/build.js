@@ -37,4 +37,4 @@ const buildInfo = {
 await writeFile(join(OUT, 'build-info.json'), JSON.stringify(buildInfo, null, 2));
 console.log('\nBuild complete:');
 console.log(JSON.stringify(buildInfo, null, 2));
-console.log("Checking for build action")
+console.log("Testing in local env")
