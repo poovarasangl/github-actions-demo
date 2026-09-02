@@ -11,7 +11,7 @@ on:
   push:
     branches:
       - main
-      - dev       # any branch starting with release/  (** = wildcard)
+      - 'dev'        # any branch starting with release/  (** = wildcard)
     paths:
       - 'sample-app/**'     # only run if something in the app folder changed
       - '**.js'             # ...or any JavaScript file, anywhere in the repo
