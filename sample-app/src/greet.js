@@ -12,6 +12,7 @@
 // The default suite only admits high/very-high precision security queries, so
 // out of the box you get ONE alert here, not two. That gap is the lesson —
 // see README section 32.
+// small changes
 
 import { execSync } from 'node:child_process';
 import path from 'node:path';
